@@ -198,7 +198,8 @@
           neogen
           yanky-nvim
           dial-nvim
-          harpoon2
+          harpoon
+          # harpoon2
           inc-rename-nvim
           leap-nvim
           flit-nvim
@@ -213,7 +214,7 @@
           go-nvim
           nvim-jdtls
           markdown-preview-nvim
-          # rustaceanvim
+          rustaceanvim
           tailwindcss-colors-nvim
           vimtex
           yaml-companion-nvim
@@ -223,15 +224,18 @@
           # project-nvim
           vim-repeat
           vim-startuptime
-          venv-selector-nvim
           render-markdown-nvim
+          venv-selector-nvim
           litee-nvim
           telescope-github-nvim
-
-          # Language-related utilities
           vim-dadbod
           vim-dadbod-ui
           vim-dadbod-completion
+
+          cmake-tools-nvim
+          crates-nvim
+          ansible-vim
+          nvim-ts-context-commentstring
         ];
       };
 
