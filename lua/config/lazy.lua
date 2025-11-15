@@ -32,7 +32,7 @@ require('lazy').setup {
         { import = 'lazyvim.plugins.extras.editor.mini-diff' },
         { import = 'lazyvim.plugins.extras.editor.mini-files' },
         { import = 'lazyvim.plugins.extras.editor.mini-move' },
-        { import = "lazyvim.plugins.extras.editor.navic" },
+        { import = 'lazyvim.plugins.extras.editor.navic' },
         { import = 'lazyvim.plugins.extras.editor.outline' },
         { import = 'lazyvim.plugins.extras.editor.overseer' },
         { import = 'lazyvim.plugins.extras.editor.refactoring' },
@@ -74,6 +74,7 @@ require('lazy').setup {
         { import = 'lazyvim.plugins.extras.util.gh' },
         { import = 'lazyvim.plugins.extras.util.gitui' },
         { import = 'lazyvim.plugins.extras.util.mini-hipatterns' },
+        { import = 'lazyvim.plugins.extras.util.project' },
         { import = 'lazyvim.plugins.extras.util.startuptime' },
         -- import/override with your plugins
         { import = 'plugins' },
