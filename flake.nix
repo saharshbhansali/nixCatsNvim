@@ -349,7 +349,7 @@
           hosts.python3.enable = true;
           hosts.node.enable = true;
           unwrappedCfgPath = "/etc/lazynvim";
-          aliases = [ "catsvim" ];
+          aliases = [ "catsvim" "nixcats" "nixcatsnvim" "nixcatsvim" ];
         };
         # and a set of categories that you want
         # (and other information to pass to lua)
