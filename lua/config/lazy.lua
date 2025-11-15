@@ -67,7 +67,7 @@ require('lazy').setup {
         { import = 'lazyvim.plugins.extras.lsp.none-ls' },
         { import = 'lazyvim.plugins.extras.ui.dashboard-nvim' },
         { import = 'lazyvim.plugins.extras.ui.indent-blankline' },
-        { import = 'lazyvim.plugins.extras.ui.mini-animate' },
+        -- { import = 'lazyvim.plugins.extras.ui.mini-animate' },
         { import = 'lazyvim.plugins.extras.ui.mini-indentscope' },
         { import = 'lazyvim.plugins.extras.ui.treesitter-context' },
         { import = 'lazyvim.plugins.extras.util.dot' },
