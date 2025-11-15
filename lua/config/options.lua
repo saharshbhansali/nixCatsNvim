@@ -1,6 +1,9 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
+
+vim.g.lazyvim_picker = "snacks"
+
 local opt = vim.opt
 
 opt.tabstop = 2
@@ -13,3 +16,4 @@ opt.clipboard = "unnamedplus"
 
 opt.pumblend = 0
 opt.winblend = 0
+
