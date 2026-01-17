@@ -206,6 +206,7 @@
           overseer-nvim
           refactoring-nvim
           fzf-lua
+          vim-visual-multi
           pkgs.black
           nvim-fzf
           nvim-navic
