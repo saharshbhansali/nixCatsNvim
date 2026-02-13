@@ -120,7 +120,7 @@ require('nixCatsUtils.lazyCat').setup(nixCats.pawsible { 'allPlugins', 'start', 
   { import = 'lazyvim.plugins.extras.util.gh' },
   { import = 'lazyvim.plugins.extras.util.gitui' },
   { import = 'lazyvim.plugins.extras.util.mini-hipatterns' },
-  { import = 'lazyvim.plugins.extras.util.project' },
+  -- { import = 'lazyvim.plugins.extras.util.project' },
   { import = 'lazyvim.plugins.extras.util.startuptime' },
   -- import/override with your plugins
   { import = 'plugins' },
