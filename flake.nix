@@ -222,7 +222,7 @@
           dashboard-nvim
           edgy-nvim
           indent-blankline-nvim
-          project-nvim
+          # project-nvim
           vim-repeat
           vim-startuptime
           render-markdown-nvim
