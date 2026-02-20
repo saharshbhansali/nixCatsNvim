@@ -92,6 +92,7 @@
           nil # I would go for nixd but lazy chooses this one idk
           stylua
           fzf
+          tree-sitter
 
           # --- LSP plugins ---
           black
