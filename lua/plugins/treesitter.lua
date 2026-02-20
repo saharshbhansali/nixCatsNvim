@@ -41,17 +41,17 @@ return {
     --     end,
     -- },
 
-    -- Treesitter plugin
-    {
-        'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate', -- Ensure parsers are updated
-        config = function()
-            require('nvim-treesitter.configs').setup {
-                ensure_installed = {}, -- Disabled
-                indent = { enable = true }, ---@type lazyvim.TSFeat
-                highlight = { enable = true }, ---@type lazyvim.TSFeat
-                folds = { enable = true }, ---@type lazyvim.TSFeat
-            }
-        end,
-    },
+    -- -- Treesitter plugin
+    -- {
+    --     'nvim-treesitter/nvim-treesitter',
+    --     run = ':TSUpdate', -- Ensure parsers are updated
+    --     config = function()
+    --         require('nvim-treesitter.configs').setup {
+    --             ensure_installed = {}, -- Disabled
+    --             indent = { enable = true }, ---@type lazyvim.TSFeat
+    --             highlight = { enable = true }, ---@type lazyvim.TSFeat
+    --             folds = { enable = true }, ---@type lazyvim.TSFeat
+    --         }
+    --     end,
+    -- },
 }
