@@ -109,12 +109,15 @@
           texlab
           taplo
           marksman
+          mermaid-cli
+          ghostscript
           nil
           nixfmt
           lua51Packages.lua
           lua51Packages.luarocks
           lua51Packages.luarocks-nix
           lua51Packages.fzf-lua
+          # lua51Packages.tree-sitter-cli
         ];
       };
 
